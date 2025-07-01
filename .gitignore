@@ -1,0 +1,25 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Compiled files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Logs
+*.log
+
+# Database files
+*.mdf
+*.ldf
+
+# Rider
+.idea/
+
+# Others
+*.dbmdl
+*.vsidx
