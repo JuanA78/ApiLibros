@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
         policyBuilder
              .WithOrigins(
                 "http://localhost:3000",           // Desarrollo local
-                "https://miapp.vercel.app"         // Producción en Vercel
+                "https://vista-libros-autor-6xar.vercel.app"          // Producción en Vercel
             ) 
             .AllowAnyMethod()                      // GET, POST, PUT, DELETE...
             .AllowAnyHeader()                      // Headers permitidos
